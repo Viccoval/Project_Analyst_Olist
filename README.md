@@ -51,8 +51,8 @@
 
 * Распределение оценок отзывов
 
-Запускаем: 
-pip install -r requirements.txt - установить зависимости
-python sql_loader.py - загружаем данные в БД 
-psql -d olist_db -f metrics.sql - выполняем запросы
-python visualization.py - строим визуализации 
+### Запускаем: 
+* pip install -r requirements.txt - установить зависимости
+* python sql_loader.py - загружаем данные в БД 
+* psql -d olist_db -f metrics.sql - выполняем запросы
+* python visualization.py - строим визуализации 
